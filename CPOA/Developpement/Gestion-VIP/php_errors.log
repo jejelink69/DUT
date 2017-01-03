@@ -1,0 +1,803 @@
+[13-Dec-2016 11:17:51 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 1
+[13-Dec-2016 11:24:23 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 1
+[13-Dec-2016 11:25:12 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 1
+[13-Dec-2016 11:25:13 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 1
+[13-Dec-2016 11:25:31 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 1
+[13-Dec-2016 11:45:50 Europe/Paris] PHP Parse error:  syntax error, unexpected 'verify_Connexion' (T_STRING), expecting '(' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 6
+[13-Dec-2016 11:46:09 Europe/Paris] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 7
+[13-Dec-2016 11:46:19 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 10
+[13-Dec-2016 11:46:35 Europe/Paris] PHP Fatal error:  Call to undefined method VIPManager::verifyConnexion() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 9
+[13-Dec-2016 11:46:46 Europe/Paris] PHP Warning:  require(./bin/Cinema.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 22
+[13-Dec-2016 11:46:46 Europe/Paris] PHP Fatal error:  require(): Failed opening required './bin/Cinema.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 22
+[13-Dec-2016 11:47:46 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'p1506068.membres_Staff' doesn't exist' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(7): Model->executerRequete('Select count(*)...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(9): VIPManager->verify_Connexion('p1505974', 'Simon')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[13-Dec-2016 11:48:14 Europe/Paris] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 8
+[13-Dec-2016 11:48:31 Europe/Paris] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 8
+[13-Dec-2016 11:48:32 Europe/Paris] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 8
+[13-Dec-2016 11:49:20 Europe/Paris] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 8
+[13-Dec-2016 11:49:20 Europe/Paris] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 9
+[13-Dec-2016 11:58:59 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[13-Dec-2016 11:59:13 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[13-Dec-2016 11:59:26 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:38:58 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:39:16 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:39:17 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:46:08 Europe/Paris] PHP Notice:  Undefined index: action in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 9
+[14-Dec-2016 14:46:58 Europe/Paris] PHP Notice:  Undefined index: id in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:47:33 Europe/Paris] PHP Parse error:  syntax error, unexpected ':' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[14-Dec-2016 14:48:07 Europe/Paris] PHP Notice:  Undefined index: id in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:48:07 Europe/Paris] PHP Notice:  Undefined index: action in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 9
+[14-Dec-2016 14:48:46 Europe/Paris] PHP Notice:  Undefined index: id in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 11
+[14-Dec-2016 14:52:44 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 10
+[14-Dec-2016 14:52:56 Europe/Paris] PHP Parse error:  syntax error, unexpected '$resCo' (T_VARIABLE) in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 12
+[14-Dec-2016 14:53:17 Europe/Paris] PHP Parse error:  syntax error, unexpected ']' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 16
+[14-Dec-2016 14:53:25 Europe/Paris] PHP Notice:  Undefined variable: resCO in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[14-Dec-2016 14:53:25 Europe/Paris] PHP Warning:  require(index.php?action=connexion): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:53:25 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'index.php?action=connexion' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:42 Europe/Paris] PHP Warning:  require(index.php?action=connexion): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:42 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'index.php?action=connexion' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:48 Europe/Paris] PHP Warning:  require(index.php?action=connexion): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:48 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'index.php?action=connexion' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:56 Europe/Paris] PHP Warning:  require(index.php?action=connexion): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:55:56 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'index.php?action=connexion' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:56:23 Europe/Paris] PHP Warning:  require(./index.php?action=connexion): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:56:23 Europe/Paris] PHP Fatal error:  require(): Failed opening required './index.php?action=connexion' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 14
+[14-Dec-2016 14:57:38 Europe/Paris] PHP Notice:  Undefined variable: resCO in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[14-Dec-2016 15:00:51 Europe/Paris] PHP Parse error:  syntax error, unexpected '=' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 8
+[14-Dec-2016 15:01:13 Europe/Paris] PHP Notice:  Array to string conversion in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[14-Dec-2016 15:03:20 Europe/Paris] PHP Notice:  Undefined index: action in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 9
+[14-Dec-2016 15:07:11 Europe/Paris] PHP Notice:  Array to string conversion in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[14-Dec-2016 15:13:45 Europe/Paris] PHP Parse error:  syntax error, unexpected '.' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 25
+[14-Dec-2016 15:13:57 Europe/Paris] PHP Warning:  require(./layout.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:13:57 Europe/Paris] PHP Fatal error:  require(): Failed opening required './layout.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:24:17 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 9
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:25:56 Europe/Paris] PHP Warning:  Illegal string offset 'Métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:30 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:31 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:32 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:33 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:34 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:35 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:36 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:37 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:38 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:26:39 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'num_vip' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:00 Europe/Paris] PHP Warning:  Illegal string offset 'métier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:42 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:27:43 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:28:52 Europe/Paris] PHP Notice:  Undefined variable: ligne in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 9
+[14-Dec-2016 15:28:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 9
+[14-Dec-2016 15:31:06 Europe/Paris] PHP Notice:  Undefined variable: ligne in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 9
+[14-Dec-2016 15:31:06 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 9
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 10
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:31:21 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:32:45 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Prenom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 12
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Nom' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 13
+[14-Dec-2016 15:33:06 Europe/Paris] PHP Warning:  Illegal string offset 'Metier' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 14
+[14-Dec-2016 15:33:52 Europe/Paris] PHP Fatal error:  Call to undefined method PDOStatement::fetch_all() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 13
+[14-Dec-2016 15:34:11 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:34:11 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:34:11 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:34:11 Europe/Paris] PHP Notice:  Use of undefined constant num_VIP - assumed 'num_VIP' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 11
+[14-Dec-2016 15:38:57 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'journaliste' in 'where clause'' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:10
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(10): PDO->query('Select v.num_VI...')
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(12): Model->executerRequete('Select v.num_VI...')
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(25): VIPManager->getVip()
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 10
+[16-Dec-2016 10:30:38 Europe/Paris] PHP Notice:  Array to string conversion in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 13
+[16-Dec-2016 10:33:05 Europe/Paris] PHP Notice:  Undefined index: NiveauAccred in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 26
+[16-Dec-2016 10:33:05 Europe/Paris] PHP Notice:  Undefined index: NiveauAccred in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 26
+[16-Dec-2016 10:34:05 Europe/Paris] PHP Notice:  Undefined variable: journ in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:34:05 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:34:36 Europe/Paris] PHP Notice:  Undefined variable: journ in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:34:36 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:34:37 Europe/Paris] PHP Notice:  Undefined variable: journ in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:34:37 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 21
+[16-Dec-2016 10:35:09 Europe/Paris] PHP Fatal error:  Undefined class constant 'Fetch_ASSOC' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 19
+[16-Dec-2016 10:45:53 Europe/Paris] PHP Parse error:  syntax error, unexpected ''importance </th> <th> </th> <' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 8
+[16-Dec-2016 10:46:11 Europe/Paris] PHP Notice:  Undefined index: Nationnalite in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 15
+[16-Dec-2016 10:46:11 Europe/Paris] PHP Notice:  Undefined index: Nationnalite in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 15
+[16-Dec-2016 10:47:15 Europe/Paris] PHP Parse error:  syntax error, unexpected ''importance </th> <th> </th> <' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/accueil.php on line 8
+[16-Dec-2016 11:35:07 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:35:34 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 27
+[16-Dec-2016 11:36:53 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select * from V...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:24 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:25 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:25 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:26 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:26 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:26 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:26 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:26 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:51 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:52 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:52 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'num_VIP' in where clause is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(22): Model->executerRequete('select v.num_VI...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:37:58 Europe/Paris] PHP Notice:  Undefined variable: vip in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 23
+[16-Dec-2016 11:37:58 Europe/Paris] PHP Fatal error:  Call to a member function Fetch() on a non-object in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php on line 23
+[16-Dec-2016 11:38:38 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'nom' in field list is ambiguous' in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php:14
+Stack trace:
+#0 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php(14): PDOStatement->execute(Array)
+#1 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/VIPManager.php(24): Model->executerRequete('Select nom, che...', Array)
+#2 /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php(28): VIPManager->getVip('78')
+#3 {main}
+  thrown in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Model/Model.php on line 14
+[16-Dec-2016 11:40:07 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:07 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:26 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:26 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:27 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:27 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:27 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:27 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:28 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:28 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:28 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:28 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:29 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:29 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:29 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:29 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:50 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:50 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:51 Europe/Paris] PHP Warning:  require(./detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:40:51 Europe/Paris] PHP Fatal error:  require(): Failed opening required './detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:41:12 Europe/Paris] PHP Warning:  require(detailVip.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:41:12 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'detailVip.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/index.php on line 29
+[16-Dec-2016 11:41:26 Europe/Paris] PHP Notice:  Undefined variable: vppi in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 2
+[16-Dec-2016 11:41:26 Europe/Paris] PHP Warning:  require(./layout.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:41:26 Europe/Paris] PHP Fatal error:  require(): Failed opening required './layout.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:41:40 Europe/Paris] PHP Notice:  Undefined index: nom in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 2
+[16-Dec-2016 11:41:40 Europe/Paris] PHP Warning:  require(./layout.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:41:40 Europe/Paris] PHP Fatal error:  require(): Failed opening required './layout.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:42:23 Europe/Paris] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 2
+[16-Dec-2016 11:42:37 Europe/Paris] PHP Notice:  Undefined index: Nom in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 2
+[16-Dec-2016 11:42:37 Europe/Paris] PHP Warning:  require(./layout.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:42:37 Europe/Paris] PHP Fatal error:  require(): Failed opening required './layout.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:42:46 Europe/Paris] PHP Warning:  require(./layout.php): failed to open stream: No such file or directory in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:42:46 Europe/Paris] PHP Fatal error:  require(): Failed opening required './layout.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/detailVip.php on line 13
+[16-Dec-2016 11:42:53 Europe/Paris] PHP Notice:  Undefined variable: contenu in /home/UNIV-LYON1/p1505974/public_html/Gestion-VIP/Views/layout.php on line 16

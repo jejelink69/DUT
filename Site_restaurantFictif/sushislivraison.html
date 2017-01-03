@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="sushisgraphic.css">
+    <title>Sushis Neko Livraison</title>
+	<meta name="Author" content="Jérémy Montrobert"/>
+	<meta name="Description" content="Page pour se faire livrer des produits "/>
+  </head>
+  <body>
+    <div id="page">
+	<header>
+	<h1><img id="neko1" src="images/neko.gif" alt="chat"/><img id="neko2" src="images/neko.gif" alt="chat"/><img src="images/titre2.png" alt="Sushi Neko" /></h1>
+        <div id="description">"Les gens heureux n'ont pas besoin de se presser" </div>
+     <ul>
+	<li><a href="index.html" title="page d'acceuil">Accueil</a></li>
+	<li><a href="sushismenus.html" title= "consultez les différents menus">Menus</a></li>
+	<li><a href="sushisalacarte.html">À la carte</a></li>
+	<li><a href="sushislivraison.html">Livraison</a></li>
+	<li><a href="sushisinfospratiques.html">Infos pratiques</a></li>
+    </ul>
+	</header>
+	
+	<section>
+	<h2>Livraison </h2>
+	
+	<p id="commande"> Pour commander et vous faire livrer, vous pouvez téléphoner au <em id="tel">04 12 34 56 78</em></p>
+	<p id="formulaire"> Vous pouvez également remplir ce formulaire en ligne qui nous sera transmis par mail:</p>
+	</section>
+	
+	<form method="post" action="sushiscomvalidation.html">
+   <p>
+       <label>Nom :</label>
+       <input type="text" name="nom" id="nom" />
+       
+       <br />
+       <label>Prénom :</label>
+       <input type="text" name="prenom" id="prenom" />
+	   
+	   <br />
+       <label>Adresse :</label>
+       <input type="text" name="adresse" id="adresse" />
+	   
+	   <br />
+       <label>Téléphone :</label>
+       <input type="text" name="telephone" id="telephone" />
+	   
+	   <br />
+       <label>Veuillez indiquer les produits souhaités :</label>
+       <textarea  name="ameliorer" id="ameliorer" rows="10" cols="50">Exemple: Menu sushis saumon(x12), California avocat(x4), ... </textarea>  
+
+       
+   </p>
+   
+   <div class="button">
+        <button type="submit">Envoyer la commande</button>
+    </div>
+</form>
+	</div>
+	<div id="copyright">
+<p id="copy">Site réalisé en HTML5 et CSS || Ce site appartient à Jérémy Montrobert || Copyright 2016 </p> <img src="images/cssvalide.gif" alt="cssok"/>
+</div>
+  </body>
+</html>

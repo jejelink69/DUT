@@ -1,0 +1,598 @@
+
+/*GENERAL*/
+	
+	body {
+
+   background: url(images/fond2.png);
+}
+
+
+	
+	
+
+
+div#page{
+	
+	margin-left:250px;
+	margin-right:250px;
+	background-color:rgba(10,10,10,0.5);
+	
+}
+
+h1 {
+	
+
+	
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom:1px;
+	
+	 
+}
+
+div#description{
+    text-align:center;
+    font-size:18pt;
+    color:white;
+    font-style:italic;
+	margin-bottom:5px;
+
+
+}
+
+h2 {
+	text-decoration: underline;
+	font-family:sans-serif;
+	font-weight:100;
+	font-size: 24pt;
+	text-align:center;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	font-variant:small-caps;
+	
+}
+
+header{
+	
+	margin: 0 auto;
+	background-color:rgba(3,3,3,0.2);
+	
+
+	
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ text-align:center;
+ 
+
+ }
+li {
+display:inline;
+
+ 
+ }
+ul li a {
+	
+ display:inline-block; 
+ width:110px;
+ line-height:35px; /*hauteur de l'image de fond*/
+ background-image:linear-gradient(rgb(100,0,0),rgb(200,100,100));
+ text-shadow: 1px 1px 1px black;
+  color: white;
+ text-decoration:none;
+ text-align:center;
+ font-family:sans-serif;
+ font-size:12pt;
+ font-variant:small-caps;
+ letter-spacing:0.2px;
+ border: outset 1px grey;
+ border-radius:5px;
+ margin-bottom:10px;
+ }
+ul li a:hover {
+background-image:linear-gradient(black,red);
+ color:white;
+ text-shadow: 1px 1px 9px white;
+
+ }  
+em{
+	font-style:normal;
+}
+
+div#copyright{
+	margin-left:250px;
+	margin-right:250px;
+	background-color:rgba(7,7,7,0.62);
+	padding:0.2px;
+	text-align:center;
+	font-variant:small-caps;
+	font-size:11pt;
+	color:white;
+	font-family:sans-serif;
+}
+
+/*PAGE d ACCEUIL:*/
+
+body#acceuil{ 
+ background: url("images/fond1.png");
+}
+
+img#neko1{
+	height:120px;
+	float:left;
+}
+img#neko2{
+	height:120px;
+	float:right;
+}
+
+
+
+
+ul#menuacceuil{
+	text-align:center
+}
+
+	
+	
+   div.carre div {
+	
+	float:right;
+	width:50%;
+	height:50%;
+	top:50%;
+	
+}
+div.carre div~div {
+	
+	float:left;
+	width:50%;
+	height:50%;
+	
+}
+div.carre div~div~div {
+	float:right;
+	
+	width:50%;
+	height:50%
+}
+div.carre div~div~div~div {
+	float:left;
+	width:50%;
+	height:50%;
+	
+	
+}
+	div.carre {
+	width:406px;
+	height:406px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 25px;
+	
+}
+
+div.carre div a{
+line-height:150px;
+
+
+}
+a img{
+	height:200px;
+	width:200px;
+	
+	border:solid 1px grey;
+	border-radius:20px;
+
+    box-shadow: 3px 6px 4px black;
+
+	
+}
+	
+	
+a span {
+/* Par défaut, on ne verra pas le span */
+    display: none;
+}
+a:hover span { 
+/* Quand on survole le lien, par contre, on affiche le span
+Le position absolute permet de ne pas casser la mise en page : 
+le span s'affichera au-dessus du reste
+On pourrait aussi définir la position, pour qu'il s'affiche dans un cadre précis
+*/
+    display: inline;
+	position:relative;
+	
+
+	bottom:320px;
+    background: none;
+}
+
+
+img.span{
+	height:250px;
+	width:250px;
+	
+	border:solid 1px grey;
+	border-radius:20px;
+
+    box-shadow: 3px 6px 4px black;
+	
+}
+
+
+p#intro
+{
+color:rgb(156,0,0);
+font-size: 20pt;
+font-family:sans-serif;
+ font-variant:small-caps;
+ letter-spacing:0.2px;
+text-align:center;
+text-shadow: 1px 1px 3px white;
+margin-left: 300px;
+margin-right:300px;
+border:outset 2px white;
+border-radius: 5px;
+background-color:rgba(200,200,200,0.2);
+
+
+
+
+}
+
+
+
+img#banniere {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+	
+}
+
+
+/* PAGE MENU */
+
+table#grosse_faim
+{
+	display:table;
+    border-collapse: collapse;
+	
+	margin-left: auto;
+    margin-right: auto ;
+	height:400px;
+	margin-bottom:20px;
+	
+}
+	table#petite_faim
+{
+	display:table;
+	 border-collapse: collapse;
+    
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom:20px;
+	
+	
+}
+
+span#i{
+	font-size:30pt;
+	color:white;
+	border:outset 4px red;
+	border-radius:100%;
+	padding-left:16px;
+	padding-right:16px;
+	margin-left:48%;
+	margin-bottom:2px;
+	color:red;
+	
+}
+
+
+p#menu{
+	
+	color:white;
+	font-size:18pt;
+	text-shadow:1px 1px 3px black;
+	margin-top:0px;
+	
+	margin-left:60px;
+	margin-right:60px;
+	font-style:oblique;
+	text-align:center;
+	font-variant:small-caps;
+	font-family:sans-serif;
+	}
+div#note{
+	
+	position:relative;
+	border-radius:10px;
+	border: outset 1px white;
+	background-color:rgba(255,220,255,0.15);
+	font-size:19pt;
+	text-shadow:1px 1px 3px black;
+	margin-left:125px;
+	margin-right:125px;
+	margin-top:20px;
+	bottom:10px;
+	padding-top: 10px;
+	
+}	
+	
+section.food{
+text-align:center;
+color:white;
+font-family:sans-serif;
+font-variant:small-caps;
+font-size:15pt;
+margin-left:150px;
+margin-right:150px;	
+	
+	
+}
+	
+
+
+
+
+
+/*PAGE A LA CARTE*/
+
+table#alacarte
+{
+   display:table;
+   margin-left: auto;
+    margin-right: auto ;
+    border-collapse: collapse;
+}
+td, th 
+{
+	font-family: fantasy;
+    border: 3px outset white;
+	width:125px;
+	font-size:15pt;
+}
+ td
+{
+	 color: white;
+	 text-shadow: 1px 1px 3px black;
+	 text-align:center;
+	  background-color: rgba(204, 51, 32, 0.3);
+	 
+}
+th{
+	color:pink;
+	text-decoration:underline;
+	 text-shadow: 1px 1px 3px black;
+	 background-color: rgba(64, 64, 64, 0.4);
+	font-weight:100;
+}
+	
+	table caption{
+		color: white;
+		font-size: 20pt;
+		text-shadow:1px 1px 3px black;
+		font-variant:small-caps;
+		font-family:sans-serif;
+	}
+
+td img{
+	height:100px;
+	
+	padding-top:4px;
+	
+	
+}
+p#parfums{
+	color:white;
+	font-size: 18pt;
+	text-align:center;
+	text-shadow:1px 1px 3px black;
+	font-variant:small-caps;
+	margin-top:4px;
+	margin-bottom:0px;
+	font-style:oblique;
+	font-family:sans-serif;
+}
+em#saumon{
+	color:salmon;
+}
+
+em#avocat{
+	color:green;
+}
+em#thon{
+	color:grey;
+}
+em#piment{
+	color:red;
+}
+
+
+
+/*LIVRAISON*/
+
+
+p#commande{	
+    margin-left:150px;
+	margin-right:150px;
+	
+	color:white;
+	font-size: 20pt;
+	text-align:center;
+	font-family:sans-serif;
+	font-variant:small-caps;
+}
+
+em#tel{
+	font-size:22pt;
+	text-decoration:underline;
+	text-shadow: #412039 1px 1px, #412039 -1px 1px, #412039 -1px -1px, #412039 1px -1px;
+	
+}
+
+p#formulaire{
+	margin-left:150px;
+	margin-right:150px;
+	color:white;
+	font-size: 19pt;
+	text-align:center;
+	font-family:sans-serif;
+	font-variant:small-caps;
+	
+}
+
+
+form {
+ 
+ margin-left:auto;
+ margin-right:auto;
+ border-style:outset;
+ background-color: rgba(64, 64, 64, 0.3)    ;
+ padding:10px;
+ width:280px;
+ text-align:center;
+ 
+ }
+
+
+label {
+ color:white;
+ margin-top:10px;
+ display:block;
+ font-size:15pt;
+ text-shadow:1px 1px 3px black;
+ }
+
+input, textarea, select, option {
+ background-color:rgba(153, 51, 52, 0.3);
+ 
+ }
+input, textarea, select {
+ color:white;
+ text-shadow:1px 1px 3px black;
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+
+ div.button{
+	text-align:center;
+	padding:5px;
+
+ }
+ 
+ button{
+	background-color: rgba(220, 200, 200, 0.1);
+	font-size:16pt;
+	color:white;
+	text-shadow:1px 1px 3px red;
+	height:50px;
+	 
+	 
+ }
+
+/* VALIDATION */
+
+img#validation{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	height:100px;
+	
+	
+}
+
+img#chat{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	height:300px;
+	
+}
+
+p#valide{
+	color:white;
+font-size: 18pt;
+text-align:center;
+margin-left:220px;
+margin-right:220px;
+font-family:sans-serif;
+	font-variant:small-caps;
+}
+
+p#merci{
+	color:white;
+font-size: 18pt;
+text-align:center;
+margin-left:220px;
+margin-right:220px;
+font-family:sans-serif;
+	font-variant:small-caps;
+}
+	 
+ 
+ /* PAGE INFOS PRATIQUES*/
+div#englobant{
+   
+ 
+    height:400px;
+
+
+}
+div#desc {
+       
+float:left;
+	margin-left:5%;
+	width: 138px;
+    text-align:center;
+
+  font-family:sans-serif;
+	font-variant:small-caps;
+    color:white;
+font-size:13pt;
+}
+div#auteur{
+   float:left;
+	width: 138px;
+	text-align:center;
+	margin-left:20%;
+    font-size:13pt;
+	
+     font-family:sans-serif;
+	font-variant:small-caps;
+      color:white;
+
+}
+div#localisation {
+	float:right;
+	text-align:center;
+    margin-right:7%;
+   width: 130px;
+   font-family:sans-serif;
+	font-variant:small-caps;
+      color:white;
+	  font-size:13pt;
+}
+img#plan{
+margin-left: 19%;
+margin-bottom:20px;
+	
+}
+
+h1.infos{
+	
+	text-align:center;
+	font-size:18pt;
+}

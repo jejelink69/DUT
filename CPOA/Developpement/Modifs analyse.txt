@@ -1,0 +1,6 @@
+/*Photos de VIP */
+
+	On ne stock plus les photos directement dans la base-> Création table photo avec le nom, chemin d'acces 
+													et num
+	Du coup le cahmp Photo de Vip devient une clé etrangère de Photo (num_Photo);
+/*/

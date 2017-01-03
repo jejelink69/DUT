@@ -1,0 +1,331 @@
+/* Général */
+body#spec{
+background-image:url("pic/back.png");	
+	background-size:100%;
+}
+body#index{
+background-image:url("pic/backindex.jpg");
+background-size: 100%;
+
+}
+img#toto{
+	
+	height:50px;
+	float:left;
+
+	
+}
+header
+{padding:50px;
+	
+padding-top:28px;
+
+margin-top:0px;
+	background-color:rgba(255,255,255,1);
+	font-size:22pt;
+	font-family:arial;
+	font-variant:small-caps;
+	color:black;
+	text-shadow:1px 1px 1px black;
+	
+	
+	
+}	
+p#head{
+	float:left;
+	text-align:left;
+}
+
+footer{
+position:relative;
+bottom:0;
+left: 0; right: 0;	
+text-align:center;
+font-size:13pt;
+padding:5px;	
+color:black;
+text-shadow: 1px 1px 1px black;
+background-color: rgba(255,255,255,1);	
+font-family:arial;
+	font-variant:small-caps;
+	height:30px;
+}
+div{
+margin-left: 14%;
+margin-right: 14%;
+background-color:rgba(160,150,155,0.8);
+border-radius:2px;	
+	
+	
+	
+}
+
+#b{
+float:left;
+height:100px;	
+	
+	
+}
+h1.titre{
+	color:rgb(255,255,255);
+	margin-left:1%;
+	font-family:arial;
+	font-variant:small-caps;
+	padding:1%;
+	text-shadow:2px 2px 2px black;
+}
+
+p.texte{
+	font-size:15pt;
+	color:rgb(255,255,255);
+text-shadow:2px 1.5px 1.5px black;
+	margin-left:13%;
+	margin-right:13%;
+	padding:1%;
+	font-family:arial;
+	
+}
+/*MENU*/
+.cur{
+color:black;
+font-size:14.7pt;
+text-decoration:underline;
+
+	
+}
+p#menu{
+	float:right;
+	
+}
+a{
+	font-size:14pt;
+	font-family:arial;
+	text-decoration:none;
+	font-variant:normal;
+	color:black;
+	letter-spacing:1px;white-space:nowrap;line-height:42px;
+	
+	padding:20px;
+	text-align:right;;
+}
+ul#menus {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(150,150,150,0.2);
+	text-align:center;
+}
+
+li#menus {
+    float:left;
+	text-align:center;
+}
+
+li#menus a {
+	font-family:arial;
+	font-variant:small-caps;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+	text-shadow:1px 1px 1px black;
+	
+	
+}
+
+li#menus a:hover {
+    background-color: rgba(180,180,180,0.8);
+	
+}
+
+
+
+/* INDEX */
+
+h1#index{
+	
+text-shadow: -1px 2.5px 3px white;	
+text-align:center;
+font-family:sans-serif;
+
+font-size: 41pt;
+color: black;
+font-weight:400;
+
+margin-top:5%;
+margin-left:15%;
+margin-right:15%;
+padding-top: 3%;
+padding-bottom:5%;
+}
+p#intro{
+	text-shadow: -1px 2.5px 3px white;	
+font-size: 25pt;	
+margin-bottom: 30px;
+margin-left:25%;
+margin-right:25%;
+padding-top: 4%;
+font-weight:200;
+letter-spacing:0.8px;
+}
+p#ent{
+font-size:20pt;
+text-align:center;
+	
+	
+	
+}
+
+a#entrer{
+text-shadow: 2px 2px 1px black;	
+text-decoration:none;
+color:white;
+border: outset 2px darkgrey;	
+padding:1%;	
+
+}
+a#entrer:hover {
+background-color:rgba(50,50,50, 0.8);
+ color:white;
+ text-shadow: 3px 3px 2px black;
+
+}
+img#avatar{
+	height:200px;
+	margin-left:35%;
+	margin-right:35%;
+
+	
+}
+
+
+/*ACCEUIL */ 
+ 
+ 
+ 
+body#acceuil{
+background: url(pic/totoro2.png);
+ background-position: center top;
+}
+ 
+@charset "iso-8859-1";
+*{/* reset */margin:0;padding:0;}
+
+
+
+#navigationMenu li{	list-style:none;height:39px;padding:23px;width:500%; text-align:center;}
+#navigationMenu span{
+	/* Propriétés deu conteneur*/
+	width:0; left:38px; padding:0; position:absolute; 
+	/* Propriétés du texte */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:35pt;
+	font-weight:bold;
+	letter-spacing:7px;white-space:nowrap;line-height:42px;
+	/* Transition: */
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+	text-align:center;
+margin-top:20px;
+font-variant:small-caps;
+}
+
+#navigationMenu a{
+	background-color:rgba(250,170,170,0.3);
+	text-align:center;
+	
+	
+	height:80px;
+	width:550%;
+	display:block;
+	position:relative;
+	border:outset 2px grey;
+	border-radius:4px;}
+/* Propiétés du survol */
+#navigationMenu a:hover span{color:white; width:auto; padding:0 20px;overflow:visible; text-align:center}
+#navigationMenu a:hover{ color:white text-decoration:none; text-align:center;
+
+	
+}
+/* en cas d'ajout de bouton, faites correspondre les coordonnées de la position, la couleur etc... */
+/* le nom doit correspondre au navigationMenu.xxxxx */
+/* Bouton vert */
+#navigationMenu .accueil {	 text-align:center}
+#navigationMenu .accueil:hover { background-color:rgba(0,0,255,0.6);	 text-align:center}
+#navigationMenu .accueil span{color:rgba(50,50,240,1);text-shadow:1px 1px 1px black; text-align:center}
+/* Bouton bleu */
+#navigationMenu .about { background-position:-38px 0;}
+#navigationMenu .about:hover {background-color:rgba(255,50,0,0.6);}
+#navigationMenu .about span{color:orangered;text-shadow:1px 1px 1px black;}
+/* Bouton orange */
+#navigationMenu .scripts { }
+#navigationMenu .scripts:hover {background-color:rgba(240,15,150,0.6);}
+#navigationMenu .scripts span{color:rgba(240,15,150,1);text-shadow:1px 1px 1px black;}
+/* Bouton jaune */
+#navigationMenu .images { background-position:-114px 0;}
+#navigationMenu .images:hover{ background-color:rgba(0,0,0,0.6);}
+#navigationMenu .images span{color:rgba(40,40,40,1);text-shadow:1px 1px 1px black;}
+/* Bouton violet */
+
+/* Utile uniquement dans la page de demo */
+#main{margin-top:100px; margin-left:115px;position:relative;width:40px;}
+
+
+
+
+a#retour{
+	color:black;
+	font-size:17pt;
+	font-family:arial;
+	margin-bottom: 5px;
+	bottom:0px;
+	text-decoration:none;
+}
+a#retour:hover{
+	color:black;
+	font-size:17pt;
+	font-family:arial;
+	background-color:rgba(50,50,50,0.4);
+	bottom:0px;
+}
+div#main{
+background-color:rgba(255,255,255,0);
+}
+
+/* PRESENTATION */
+p#name{
+	color:rgb(0,200,0);
+	font-style:italic;
+}
+
+/*PARCOURS*/
+#cv{
+	color:rgb(0,200,0);
+	font-style:italic;
+}
+#pdf{
+font-size:12pt;
+color:rgb(0,200,0);
+
+
+}
+
+
+
+/* PASSIONS */
+
+
+
+/* CONTACT */
+img#fb{
+	margin-left:40%;
+	margin-right:40%;
+	height:155px;
+}
+
+
+ 
+
